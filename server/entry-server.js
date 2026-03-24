@@ -440,12 +440,12 @@ function Services() {
     ] })
   ] });
 }
-const appointment = "/dazo.tech/assets/appointment-system-DuwGraU1.png";
-const gesture = "/dazo.tech/assets/gesture-system-Do8lIy4R.png";
-const mouse = "/dazo.tech/assets/virtual-mouse-CcqTOPVe.png";
-const portfolio = "/dazo.tech/assets/portfolio-website-eHbz5dHL.png";
-const restaurant = "/dazo.tech/assets/restaurant-system-B7s-p5rq.png";
-const salon = "/dazo.tech/assets/salon-system-DzLbtjJP.png";
+const appointment = "/dazo-tech/assets/appointment-system-DuwGraU1.png";
+const gesture = "/dazo-tech/assets/gesture-system-Do8lIy4R.png";
+const mouse = "/dazo-tech/assets/virtual-mouse-CcqTOPVe.png";
+const portfolio = "/dazo-tech/assets/portfolio-website-eHbz5dHL.png";
+const restaurant = "/dazo-tech/assets/restaurant-system-B7s-p5rq.png";
+const salon = "/dazo-tech/assets/salon-system-DzLbtjJP.png";
 function Projects() {
   const projects = [
     {
@@ -1056,7 +1056,7 @@ function Footer() {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/dazo-tech-23591a3b6/"
+      href: "https://linkedin.com/company/dazotech"
     },
     {
       icon: Github,

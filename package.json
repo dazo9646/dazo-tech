@@ -1,5 +1,6 @@
 {
   "name": "dazo-tech",
+  "homepage": "https://dazo9646.github.io/dazo-tech",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +9,9 @@
     "build": "npm run build:client && npm run build:server",
     "build:client": "vite build --outDir dist/client",
     "build:server": "vite build --ssr src/entry-server.jsx --outDir dist/server",
-    "preview": "cross-env NODE_ENV=production node server"
+    "preview": "cross-env NODE_ENV=production node server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "compression": "^1.8.1",
@@ -24,6 +27,7 @@
     "@vitejs/plugin-react": "^5.1.2",
     "autoprefixer": "^10.4.20",
     "cross-env": "^10.1.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
     "vite": "^7.3.1"

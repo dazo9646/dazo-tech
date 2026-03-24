@@ -15,7 +15,7 @@ export default function Footer() {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/dazo-tech-23591a3b6/',
+      href: 'https://linkedin.com/company/dazotech',
     },
     {
       icon: Github,
